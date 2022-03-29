@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Program</title>
+<link href="css/shCore.css" rel="stylesheet" type="text/css" />
+  <link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="highlighter/prettify.css" />
+
+</head>
+<style>
+pre {
+white-space: pre-wrap;       /* css-3 */
+white-space: -moz-pre-wrap;  /* Mozilla */
+white-space: -pre-wrap;      /* Opera 4-6 */
+white-space: -o-pre-wrap;    /* Opera 7 */
+word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+pre {
+overflow: auto;
+width: 500px;
+}
+</style
+<body>
+<h1>Program with code</h1>
+<ul>
+<li><h3>Rotate an array</h3></li>
+<h4>Code:</h4>
+
+
+</ul>
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre class="prettyprint" class="prettyprint" style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">print</span>
+ <span style="background-color: #fff0f0">'#include<bits/stdc++.h>
+
+using namespace std;
+ int main()
+ {
+ cout<<v[i]<<" "";
+     //int a[7];
+     int a[7]={1,2,3,4,5,6,7};
+     int k=3;
+     std::vector<int>v;
+     for(int i=0;i<7;i++)
+     {
+         v.push_back(a[i]);
+     }
+      for(int i=0;i<7;i++)
+     {
+         cout<<v[i]<<" "";
+     }
+     cout<<endl;
+     reverse(v.begin()+k+1,v.end());
+      for(int i=0;i<7;i++)
+     {
+         cout<<v[i]<<" ";
+     }
+     cout<<endl;
+     reverse(v.begin(),v.begin()+k+1);
+     for(int i=0;i<7;i++)
+     {
+         cout<<v[i]<<" ";
+     }
+     cout<<endl;
+     reverse(v.begin(),v.end());
+     for(int i=0;i<7;i++)
+     {
+         cout<<v[i]<<" ";
+     }
+ }'</span>
+ <hr>
+ <h3>Another code</h3>
+ <code>
+ void rotate(int arr[], int n)
+{
+   int temp=arr[n-1];
+   for(int i=n-1;i>0;i--)
+   {
+       
+       arr[i]=arr[i-1];
+      
+   }
+   arr[0]=temp;
+     
+}
+<hr>
+</code>
+
+</pre></div>
+
+  <script src="js/shCore.js"></script>
+  <script src="js/shBrushCpp.js"></script>
+  <script>
+    SyntaxHighlighter.all()
+  </script>
+</body>
+</html>
